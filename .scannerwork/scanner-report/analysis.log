@@ -1,0 +1,40 @@
+SonarQube plugins:
+  - Python Code Quality and Security 3.5.0.8244 (python)
+  - CSS Code Quality and Security 1.4.2.2002 (cssfamily)
+  - Go Code Quality and Security 1.8.3.2219 (go)
+  - JaCoCo 1.1.1.1157 (jacoco)
+  - Kotlin Code Quality and Security 2.0.1.110 (kotlin)
+  - JavaScript/TypeScript Code Quality and Security 8.1.0.15788 (javascript)
+  - Ruby Code Quality and Security 1.8.3.2219 (ruby)
+  - Scala Code Quality and Security 1.8.3.2219 (sonarscala)
+  - C# Code Quality and Security 8.25.0.33663 (csharp)
+  - Java Code Quality and Security 7.1.0.26670 (java)
+  - HTML Code Quality and Security 3.4.0.2754 (web)
+  - Flex Code Quality and Security 2.6.2.2641 (flex)
+  - XML Code Quality and Security 2.2.0.2973 (xml)
+  - PHP Code Quality and Security 3.17.0.7439 (php)
+  - VB.NET Code Quality and Security 8.25.0.33663 (vbnet)
+Global server settings:
+  - sonar.core.id=BF41A1F2-AXrC7SxNIh4QQr4sD07Y
+  - sonar.core.startTime=2021-07-24T17:58:26+0530
+  - sonar.forceAuthentication=true
+Project server settings:
+Project scanner properties:
+  - sonar.coverage.exclusions=**/*.test.js, **/static/**, **/app-config/*, **/common/style/**/*
+  - sonar.exclusions=**/*.test.js, **/static/**, **/app-config/*, **/common/style/**/*
+  - sonar.host.url=http://localhost:9000
+  - sonar.javascript.lcov.reportPaths=./test-coverage/lcov.info
+  - sonar.language=js
+  - sonar.login=******
+  - sonar.projectBaseDir=/Users/pargupta3/Documents/github/sonarImplementation
+  - sonar.projectDescription=No description.
+  - sonar.projectKey=sonar
+  - sonar.projectName=sonar
+  - sonar.projectVersion=0.1.0
+  - sonar.scanner.app=ScannerNpm
+  - sonar.scanner.appVersion=2.8.1
+  - sonar.sourceEncoding=UTF-8
+  - sonar.sources=./src
+  - sonar.test.inclusions=**/*.test.js
+  - sonar.verbose=true
+  - sonar.working.directory=/Users/pargupta3/Documents/github/sonarImplementation/.scannerwork
