@@ -26,7 +26,7 @@ Here we are all done with sonar n Jdk installation
 
 1. Now in your working repo, Create a sonarqube-scanner file parallel to src folder in your repo
 2. Install sonarqube-scanner npm pcg
-3. Set your configurations der like given in example
+3. Set your configurations like given in example
 4. Inside your project directory , node sonarqube-scanner
 5. Now as mentioned in sonarqube-scanner file, hit http://localhost:9000/account/security
 6. Generate token for your project
