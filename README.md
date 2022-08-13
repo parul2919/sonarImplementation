@@ -7,7 +7,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 To run sonar in sonar directory::
 
 On Linux: bin/linux-x86-64/sonar.sh start
+
 On macOS: bin/macosx-universal-64/sonar.sh start
+
 On Windows: bin/windows-x86-64/StartSonar.bat
 
 
